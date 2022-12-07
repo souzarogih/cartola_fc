@@ -1,0 +1,9 @@
+[{"model": "app.player", "pk": 1, "fields": {"name": "higor_souza", "initial_price": 10.0}},
+{"model": "app.player", "pk": 2, "fields": {"name": "neymar", "initial_price": 5.0}},
+{"model": "app.player", "pk": 3, "fields": {"name": "alonso", "initial_price": 7.0}},
+{"model": "app.player", "pk": 4, "fields": {"name": "Cristiano Ronaldo", "initial_price": 9.0}},
+{"model": "app.team", "pk": 1, "fields": {"name": "Brasil"}}, {"model": "app.team", "pk": 2, "fields": {"name": "Argentina"}},
+{"model": "app.team", "pk": 3, "fields": {"name": "Portugal"}},
+{"model": "app.myteam", "pk": 1, "fields": {"players": [1, 2, 3]}},
+{"model": "app.match", "pk": 1, "fields": {"match_date": "2022-12-07T13:31:11Z", "team_a": 1, "team_a_goal": 2, "team_b": 2, "team_b_goal": 0}},
+{"model": "app.match", "pk": 2, "fields": {"match_date": "2022-12-07T13:33:27Z", "team_a": 1, "team_a_goal": 1, "team_b": 2, "team_b_goal": 1}}]
